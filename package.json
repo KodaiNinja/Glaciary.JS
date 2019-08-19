@@ -2,13 +2,13 @@
   "name": "glaciary.js",
   "version": "0.0.1",
   "description": "The Rest API Framework based on Express.JS and Socket.IO",
-  "main": ".glaciary/server.js",
+  "main": "glaciary.js",
   "scripts": {
-    "test": "nodemon .glaciary/server.js"
+    "development": "nodemon glaciary.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GabrielLeonte/Glaciary.JS.git"
+    "url": "https://github.com/GabrielLeonte/Glaciary.JS.git"
   },
   "keywords": [
     "socket.io",
