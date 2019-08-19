@@ -1,10 +1,13 @@
 {
   "name": "glaciary.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Rest API Framework based on Express.JS and Socket.IO",
-  "main": "glaciary.js",
+  "main": "core/index.js",
   "scripts": {
-    "development": "nodemon glaciary.js"
+    "dev": "nodemon core/index.js"
+  },
+  "bin": {
+    "glaciary": "core/index.js"
   },
   "repository": {
     "type": "git",
