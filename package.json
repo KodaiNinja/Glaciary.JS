@@ -1,26 +1,20 @@
 {
-  "name": "glaciary.js",
-  "version": "0.0.2",
-  "description": "The Rest API Framework based on Express.JS and Socket.IO",
-  "main": "core/index.js",
+  "name": "glaciary",
+  "version": "0.0.1",
+  "description": "The Rest API framework based on Express.JS and Socket.IO",
+  "main": "lib/index.js",
+  "bin": "lib/index.js",
   "scripts": {
-    "dev": "nodemon core/index.js"
-  },
-  "bin": {
-    "glaciary": "core/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GabrielLeonte/Glaciary.JS.git"
+    "url": "git+https://github.com/GabrielLeonte/Glaciary.JS.git"
   },
   "keywords": [
-    "socket.io",
-    "express.js",
-    "restapi",
+    "RestAPI",
     "api",
-    "rest",
-    "nodejs",
-    "node"
+    "glaciary"
   ],
   "author": "Gabriel Leonte",
   "license": "MIT",
