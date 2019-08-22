@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/GabrielLeonte/Glaciary.JS/issues"
   },
-  "homepage": "https://github.com/GabrielLeonte/Glaciary.JS#readme"
+  "homepage": "https://github.com/GabrielLeonte/Glaciary.JS#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
 }
