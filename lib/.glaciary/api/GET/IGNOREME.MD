@@ -1,0 +1,1 @@
+# This file is here just to mark the fact that i'm a little bit lazy, and i didn't finished a specific function of the core :D 
