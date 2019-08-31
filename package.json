@@ -1,6 +1,6 @@
 {
   "name": "glaciary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Rest API framework based on Express.JS and Socket.IO",
   "main": "lib/index.js",
   "bin": "lib/index.js",
@@ -12,9 +12,13 @@
     "url": "git+https://github.com/GabrielLeonte/Glaciary.JS.git"
   },
   "keywords": [
-    "RestAPI",
+    "rest api",
+    "restapi",
     "api",
-    "glaciary"
+    "express",
+    "socket.io",
+    "glaciary",
+    "glaciary.js"
   ],
   "author": "Gabriel Leonte",
   "license": "MIT",
