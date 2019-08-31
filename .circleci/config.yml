@@ -20,13 +20,4 @@ jobs:
             - ./node_modules
       - run:
           name: cd-to-test
-          command: cd .circleci/test-app
-      - run:
-          name: ls
-          command: ls
-      - run:
-          name: install
-          command: npm install
-      - run:
-          name: start
-          command: npm start
+          command: cd .circleci/test-app && npm install && npm start
