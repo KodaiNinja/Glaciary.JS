@@ -24,3 +24,6 @@ jobs:
       - run:
           name: start
           command: cd test && npm start
+      - run:
+          name: ls
+          command: cd test && ls
