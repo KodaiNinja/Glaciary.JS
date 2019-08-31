@@ -20,7 +20,7 @@ jobs:
             - ./node_modules
       - run:
           name: cd-to-test
-          command: cd .circleci\test-app
+          command: cd .circleci/test-app
       - run:
           name: install
           command: npm install
