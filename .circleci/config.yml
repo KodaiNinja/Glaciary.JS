@@ -1,0 +1,29 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/test
+    docker:
+      - image: circleci/node:10.16.0
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm'
+      - run:
+          name: install-glaciary
+          command: 'sudo npm install -g glaciary'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: create-new-test-app
+          command: npm init glaciary-app test
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: cd-to-test
+          command: cd test
+      - run:
+          name: test
+          command: npm start
