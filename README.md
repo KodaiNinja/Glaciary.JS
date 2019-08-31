@@ -1,5 +1,6 @@
 # Glaciary.JS
 [![DeepScan grade](https://deepscan.io/api/teams/5144/projects/7012/branches/64070/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5144&pid=7012&bid=64070)
+[![CircleCI](https://circleci.com/gh/GabrielLeonte/create-glaciary-app.svg?style=svg)](https://circleci.com/gh/GabrielLeonte/create-glaciary-app)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/GabrielLeonte/Glaciary.JS/pulls)
 
 
