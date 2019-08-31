@@ -23,4 +23,4 @@ jobs:
           command: cd test && npm install
       - run:
           name: start
-          command: cd test && npm start
+          command: cd test && npm run test
