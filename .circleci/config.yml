@@ -21,7 +21,7 @@ jobs:
       - run:
           name: cd-to-test
           command: cd .circleci/test-app
-          - run:
+      - run:
           name: ls
           command: ls
       - run:
