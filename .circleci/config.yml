@@ -14,16 +14,16 @@ jobs:
           command: 'sudo npm install -g glaciary'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: create-new-test-app
-          command: npm init glaciary-app test
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
       - run:
           name: cd-to-test
-          command: ls
+          command: cd .circleci\test-app
       - run:
-          name: test
+          name: install
+          command: npm install
+      - run:
+          name: start
           command: npm start
