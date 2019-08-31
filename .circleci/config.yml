@@ -23,7 +23,7 @@ jobs:
             - ./node_modules
       - run:
           name: cd-to-test
-          command: cd ./test
+          command: ls
       - run:
           name: test
           command: npm start
