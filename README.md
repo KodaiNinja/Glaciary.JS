@@ -27,7 +27,7 @@ yarn create glaciary-app <my-project>
 ```
 
 ## Links
-* :book: Docs: [Soon]
+* :book: Docs: [Docs](https://github.com/GabrielLeonte/glaciary-docs)
 * :earth_africa: Discord: [Join](https://discord.gg/h3uKEt4)
 
 ## Features :fire:
