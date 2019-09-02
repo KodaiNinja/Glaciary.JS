@@ -36,6 +36,7 @@ yarn create glaciary-app <my-project>
 * Configurable default HTTP route with defaults.glaciary.js
 * Configurable default Socket.IO Event with defaults.glaciary.js
 * Easy to setup SSL Certificate with defaults.glaciary.js (still testing)
+* Simple Debug system
 
 ## Incoming Features :smirk:
 * Plugins
